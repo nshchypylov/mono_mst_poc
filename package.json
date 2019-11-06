@@ -11,6 +11,6 @@
   },
   "scripts": {
     "test": "lerna run test --stream",
-    "update:version": "lerna version --no-push"
+    "bump": "lerna version --no-push"
   }
 }
