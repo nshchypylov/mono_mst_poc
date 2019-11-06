@@ -1,0 +1,52 @@
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   push: false,
+0 silly argv   lernaVersion: '3.18.3',
+0 silly argv   '$0': '/Users/nikita.shchypylov/Files/ring/mono_mst_poc/node_modules/.bin/lerna'
+0 silly argv }
+1 notice cli v3.18.3
+2 verbose rootPath /Users/nikita.shchypylov/Files/ring/mono_mst_poc
+3 info current version 0.0.1
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly currentBranch
+7 verbose currentBranch master
+8 silly hasTags
+9 verbose hasTags true
+10 silly git-describe.sync "@monorepo/app@0.0.6-4-g45fe488" => {"lastTagName":"@monorepo/app@0.0.6","lastVersion":"0.0.6","refCount":"4","sha":"45fe488","isDirty":false}
+11 info Looking for changed packages since @monorepo/app@0.0.6
+12 silly checking diff packages/first
+13 silly found diff in packages/first/index.js
+14 verbose filtered diff [ 'packages/first/index.js' ]
+15 silly checking diff packages/second
+16 silly no diff found in @monorepo/second
+17 silly checking diff packages/welcome
+18 silly no diff found in @monorep/welcome
+19 verbose updated @monorepo/first
+20 verbose git-describe undefined => "@monorepo/app@0.0.6-4-g45fe488"
+21 silly git-describe parsed => {"lastTagName":"@monorepo/app@0.0.6","lastVersion":"0.0.6","refCount":"4","sha":"45fe488","isDirty":false}
+22 info execute Skipping git push
+23 info execute Skipping releases
+24 silly lifecycle No script for "preversion" in "root", continuing
+25 silly lifecycle No script for "preversion" in "@monorepo/first", continuing
+26 silly lifecycle No script for "preversion" in "@monorepo/second", continuing
+27 silly lifecycle No script for "preversion" in "@monorep/welcome", continuing
+28 silly lifecycle No script for "version" in "@monorepo/first", continuing
+29 silly lifecycle No script for "version" in "@monorepo/second", continuing
+30 silly lifecycle No script for "version" in "@monorep/welcome", continuing
+31 silly lifecycle No script for "version" in "root", continuing
+32 silly gitAdd [
+32 silly gitAdd   '/Users/nikita.shchypylov/Files/ring/mono_mst_poc/packages/first/package.json',
+32 silly gitAdd   '/Users/nikita.shchypylov/Files/ring/mono_mst_poc/packages/second/package.json',
+32 silly gitAdd   '/Users/nikita.shchypylov/Files/ring/mono_mst_poc/packages/welcome/package.json',
+32 silly gitAdd   '/Users/nikita.shchypylov/Files/ring/mono_mst_poc/lerna.json'
+32 silly gitAdd ]
+33 silly gitCommit v0.0.2
+34 verbose git [ 'commit', '-m', 'v0.0.2' ]
+35 silly gitTag v0.0.2
+36 verbose git [ 'tag', 'v0.0.2', '-m', 'v0.0.2' ]
+37 error Error: Command failed: git tag v0.0.2 -m v0.0.2
+37 error fatal: tag 'v0.0.2' already exists
+37 error
+37 error     at makeError (/Users/nikita.shchypylov/Files/ring/mono_mst_poc/node_modules/execa/index.js:174:9)
+37 error     at /Users/nikita.shchypylov/Files/ring/mono_mst_poc/node_modules/execa/index.js:278:16
