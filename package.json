@@ -12,5 +12,6 @@
   "scripts": {
     "test": "lerna run test --stream",
     "bump": "lerna version patch --no-push"
-  }
+  },
+  "version": "0.0.0"
 }
